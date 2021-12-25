@@ -613,19 +613,6 @@ img {
   padding-bottom: 50px;
 }
 
-.footer-social {
-  display: flex;
-  justify-content: center;
-}
-
-.foter-item {
-  cursor: pointer;
-}
-
-.foter-item > .link {
-  margin: 0px 20px 0px 20px;
-}
-
 .scrollToTop {
   position: fixed;
   bottom: 40px;

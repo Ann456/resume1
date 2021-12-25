@@ -11,23 +11,8 @@ const refs = {
 
 
 refs.openModel.addEventListener('click', onOpenModal);
-refs.closeModelBtn.addEventListener('click', onCloseModal);
 refs.showModel.addEventListener('click', onCloseModalByClickBackdrop);
 
-(() => {
-    const menuBtnRef = document.querySelector("[data-menu-button]");
-    const mobileMenuRef = document.querySelector("[data-menu]");
-
-    menuBtnRef.addEventListener("click", () => {
-        const expanded =
-            menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-
-        menuBtnRef.classList.toggle("is-open");
-        menuBtnRef.setAttribute("aria-expanded", !expanded);
-
-        mobileMenuRef.classList.toggle("is-open");
-    });
-})();
 
 function onOpenModal(e) {
     e.preventDefault();
@@ -81,7 +66,7 @@ function submitForm(e) {
             telephone: refs.tel.value,
             message: refs.message.value,
         }
-        window.open(`mailto:reznik.d.o12@gmail.com?subject=Message for Denis&body=Name: ${form.name} Telephone: ${form.telephone} Message: ${form.message}`)
+        window.open(`mailto:popovaa769@gmail.com?subject=Message for Anna&body=Name: ${form.name} Telephone: ${form.telephone} Message: ${form.message}`)
     }
     reset();
 }

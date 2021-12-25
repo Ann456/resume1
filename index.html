@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/font.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./style/style.css">
@@ -18,13 +17,6 @@
             <div class="section-padding">
                 <nav class="nav" id="home">
                     <div class="menu-mobile">
-                        <button type="button" class="menu-header" aria-expanded="false" aria-controls="menu-container"
-                            data-menu-button>
-                            <svg class="menu-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
-                                <use class="icon-menu" href="./images/sprite.svg#menu"></use>
-                                <use class="icon-close" href="./images/sprite.svg#close-menu"></use>
-                            </svg>
-                        </button>
                         <div class="menu-container" id="menu-container" data-menu>
                             <ul class="nav-list list">
                                 <li class="nav-item">
@@ -277,53 +269,16 @@
             <section class="contacts" id="contacts">
                 <div class="section-padding">
                     <h2 class="contacts-title">Contacts</h2>
-                    <p class="contacts-description">Want to know more or just chat? <br> You are welcome!</p>
+                    <p class="contacts-description">Contact me</p>
                     <button class="open-modal-team send-btn" type="button">Send message</button>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <div class="section-padding">
-                <ul class="footer-social list">
-                    <li class="foter-item">
-                        <a class="link" href="https://www.facebook.com/doreznik">
-                            <svg class="icon" width="50" height="50">
-                                <use href="./images/sprite.svg#icon-Facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="foter-item">
-                        <a class="link" href="https://www.linkedin.com/feed/">
-                            <svg class="icon" width="50" height="50">
-                                <use href="./images/sprite.svg#icon-Linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="foter-item">
-                        <a class="link" href="https://t.me/reznik_do">
-                            <svg class="icon" width="50" height="50">
-                                <use href="./images/sprite.svg#icon-telegram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="foter-item">
-                        <a class="link" href="https://github.com/reznik-denis">
-                            <svg class="icon" width="50" height="50">
-                                <use href="./images/sprite.svg#icon-github"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
                 <button class="scrollToTop"> &uarr; </button>
-            </div>
         </footer>
     </div>
-    <div class="backdrop js-backdrop">
-        <button class="close-modal-btn form-btn">
-            <svg class="icon" width="50" height="50">
-                <use href="./images/sprite.svg#close-menu"></use>
-            </svg>
-        </button>
+    <div class="backdrop js-backdrop"> 
         <div class="form-modal">
             <h2 class="form-title">Send message</h2>
             <form class="form js-speaker-form" action="submit">
